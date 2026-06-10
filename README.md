@@ -1,5 +1,5 @@
 # ecommerce-sql-project
- A sql project on ecommerce data
+ A sql project on ecommerce data. Ongoing as on June 10, 2026. 
 
 ## Project Structure
 
