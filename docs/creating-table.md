@@ -1,6 +1,6 @@
 # Creating Table
 
-- PostgreSQL automatically creates an unique index for a UNIQUE constraint. Therefore it is not necessary to write `CREATE INDEX` for email. This is redundant.
+- PostgreSQL automatically creates an unique index for a UNIQUE constraint. Therefore it is not necessary to write `CREATE INDEX` for email. This is redundant. It also creates index automatically for `PRIMARY KEY`, but not for `FOREIGN KEY`.
 
 ## Running the script
 
@@ -64,3 +64,8 @@ Check constraints:
     "customers_loyalty_tier_check" CHECK (loyalty_tier::text = ANY (ARRAY['bronze'::character varying, 'silver'::character varying, 'gold'::character varying, 'platinum'::character varying]::text[]))
 
 ```
+
+## To Do
+
+- triggers for updated_at: in table e.g. in adresses, add a postgres trigger so that when a row changes in some column, updated at triggers. Now updated_at triggers only on insert.
+- default address constraint: in table addresses, add only one default shipping and billing address per customer.
