@@ -29,6 +29,3 @@ CREATE TABLE order_items(
         UNIQUE (order_id, variant_id)   
 
 );
-
-CREATE INDEX idx_order_items_order_id
-    ON order_items(order_id); 
