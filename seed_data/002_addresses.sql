@@ -14,7 +14,7 @@ INSERT INTO addresses (
 )
 VALUES
 (1, 'home', 'John Smith', NULL, 'Musterstraße 12', NULL, 'Berlin', 'Berlin', '10115', 'DE', '+49 151 12345678', TRUE),
-(6, 'shipping', 'Emma Johnson', NULL, 'Bahnhofstraße 8', 'Apartment 4B', 'Hamburg', 'Hamburg', '20095', 'DE', '+49 152 23456789', TRUE),
+(2, 'shipping', 'Emma Johnson', NULL, 'Bahnhofstraße 8', 'Apartment 4B', 'Hamburg', 'Hamburg', '20095', 'DE', '+49 152 23456789', TRUE),
 (7, 'billing', 'Michael Brown', NULL, 'Königsallee 55', NULL, 'Düsseldorf', 'North Rhine-Westphalia', '40212', 'DE', '+49 160 34567890', TRUE),
 (8, 'office', 'Sophia Davis', 'Davis Consulting GmbH', 'Industriestraße 20', 'Floor 3', 'Munich', 'Bavaria', '80331', 'DE', '+49 170 45678901', TRUE),
 (9, 'home', 'William Miller', NULL, 'Schillerstraße 7', NULL, 'Frankfurt', 'Hesse', '60311', 'DE', '+49 171 56789012', TRUE),
@@ -29,9 +29,7 @@ VALUES
 (18, 'home', 'Amelia Martin', NULL, 'Am Markt 27', NULL, 'Mannheim', 'Baden-Württemberg', '68159', 'DE', '+49 151 45678903', TRUE),
 (19, 'office', 'Alexander Thompson', 'Thompson IT Solutions', 'Technologiepark 2', NULL, 'Karlsruhe', 'Baden-Württemberg', '76133', 'DE', '+49 152 56789014', TRUE),
 (20, 'billing', 'Harper Garcia', NULL, 'Seestraße 14', NULL, 'Kiel', 'Schleswig-Holstein', '24103', 'DE', '+49 153 67890125', TRUE),
-(21, 'shipping', 'Matthew Martinez', NULL, 'Birkenweg 31', NULL, 'Freiburg', 'Baden-Württemberg', '79098', 'DE', '+49 154 78901236', TRUE),
-(22, 'home', 'Evelyn Robinson', NULL, 'Mozartstraße 6', NULL, 'Augsburg', 'Bavaria', '86150', 'DE', '+49 155 89012347', TRUE),
-(23, 'office', 'Lucas Clark', 'Clark Logistics GmbH', 'Hafenstraße 90', NULL, 'Bremen', 'Bremen', '28199', 'DE', '+49 156 90123458', TRUE),
-(24, 'home', 'Ella Rodriguez', NULL, 'Gartenweg 11', NULL, 'Mainz', 'Rhineland-Palatinate', '55116', 'DE', '+49 157 01234569', TRUE),
-(25, 'billing', 'Mial Grey', NULL, 'Einbaustraße 9', NULL, 'Erfurt', 'Erfurt', '28195', 'DE', '+49 178 23455781', TRUE),
-(26, 'home', 'Willy Herr ', NULL, 'Bergstraße 7', NULL, 'Dresden', 'Hamburg', '60311', 'DE', '+49 171 56784012', FALSE);
+(3, 'shipping', 'Matthew Martinez', NULL, 'Birkenweg 31', NULL, 'Freiburg', 'Baden-Württemberg', '79098', 'DE', '+49 154 78901236', TRUE),
+(4, 'home', 'Evelyn Robinson', NULL, 'Mozartstraße 6', NULL, 'Augsburg', 'Bavaria', '86150', 'DE', '+49 155 89012347', TRUE),
+(5, 'office', 'Lucas Clark', 'Clark Logistics GmbH', 'Hafenstraße 90', NULL, 'Bremen', 'Bremen', '28199', 'DE', '+49 156 90123458', TRUE),
+(6, 'home', 'Ella Rodriguez', NULL, 'Gartenweg 11', NULL, 'Mainz', 'Rhineland-Palatinate', '55116', 'DE', '+49 157 01234569', TRUE);

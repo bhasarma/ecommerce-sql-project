@@ -1,0 +1,21 @@
+\i schema/001_create_customers.sql
+\i schema/002_create_addresses.sql
+\i schema/003_create_categories.sql
+\i schema/004_create_brands.sql
+\i schema/005_create_products.sql
+\i schema/006_create_product_variants.sql
+\i schema/007_create_inventory.sql
+\i schema/008_create_orders.sql
+\i schema/009_create_order_items.sql
+\i schema/010_create_payments.sql
+
+\i seed_data/001_customers.sql
+\i seed_data/002_addresses.sql
+\i seed_data/003_categories.sql
+\i seed_data/004_brands.sql
+\i seed_data/005_products.sql
+\i seed_data/006_product_variants.sql
+\i seed_data/007_inventory.sql
+\i seed_data/008_orders.sql
+\i seed_data/009_order_items.sql
+\i seed_data/010_payments.sql
