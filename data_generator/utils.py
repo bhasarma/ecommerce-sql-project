@@ -39,3 +39,27 @@ def initialize_random_seed(seed : int) -> None:
 
     random.seed(seed)
     np.random.seed(seed)
+
+
+def weighted_choice(weights: dict[str, float]) -> str:
+    '''
+    Select a random value according to the suplied probability weights.
+
+    Parameters:
+    -----------
+    weights: dict[str, float]
+        Dictionary mapping values to their probabilities
+
+    Returns
+    -------
+    str
+        One randomly selected key
+    '''
+
+    return random.choices(
+        population = list(weights.keys()),
+        weights = list(weights.values()),
+        k=1
+    )[0]
+
+
