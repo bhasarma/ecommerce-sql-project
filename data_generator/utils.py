@@ -63,3 +63,24 @@ def weighted_choice(weights: dict[str, float]) -> str:
     )[0]
 
 
+def load_text_resource(filename: str) -> list[str]:
+    '''
+    Load a text resource file.
+
+    Each non-empty line in the file is returned as one list element.
+
+    Parameters:
+    -----------
+    list[str]
+        List of strings from the file.
+    '''
+
+    file_path = RESOURCES_DIR/filename
+
+    with file_path.open("r", encoding="utf-8") as file:
+        return [
+            line.strip()
+            for line in file
+            if line.strip()
+        ]
+
