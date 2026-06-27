@@ -84,3 +84,23 @@ def load_text_resource(filename: str) -> list[str]:
             if line.strip()
         ]
 
+def load_json_resource(filename: str) -> dict[str, Any]:
+    '''
+    Load a json resource file
+
+    Parameters:
+    -----------
+    filename: str
+        Name of the JSON file inside the resources directory.
+
+    Returns:
+    --------
+    dict[str, Any]
+        Parsed JSON content.
+    '''
+
+    file_path = RESOURCES_DIR/filename
+
+    with file_path.open("r",encoding = "utf-8") as file:
+        return json.load(file)
+    
