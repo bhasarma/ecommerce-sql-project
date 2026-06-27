@@ -41,5 +41,6 @@ ecommerce-sql-project/
 ## Entity Relationship (ER) Diagram
 
 ![ER Diagram](docs/images/ecommerce_er_diagram.svg)
+
 **Interactive Diagram:** https://dbdocs.io/b.sarma1729/Ecommerce-Databse-ER-Diagram?view=relationships
 
