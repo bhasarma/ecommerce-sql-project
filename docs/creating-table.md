@@ -10,6 +10,7 @@
 - step 3: connect to the database:
   `postgres=# \c ecommerce_db`
 - step 4: run the first script:
+- `\l` to show list of databases
 
 ```bash
 (base) bsarma@turing:~/git-repos/ecommerce-sql-project/sql$ ls -l

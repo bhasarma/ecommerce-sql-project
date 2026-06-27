@@ -1,0 +1,5 @@
+Faker
+numpy
+pandas
+python_dateutils
+tqdm

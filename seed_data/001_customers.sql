@@ -23,5 +23,3 @@ VALUES
 ('Evelyn','Lewis','evelyn.lewis@example.com','+491705656565','1997-04-19','female',CURRENT_TIMESTAMP - INTERVAL '2 hours','active','bronze',TRUE),
 ('Michael','Lee','michael.lee@example.com','+491706767676','1986-06-25','prefer_not_to_say',CURRENT_TIMESTAMP - INTERVAL '40 days','inactive','silver',FALSE),
 ('Julia','Huttmann','julia.huttmann@example.com','+491705435555','1998-05-12','female',CURRENT_TIMESTAMP - INTERVAL '20 hours','active','bronze',FALSE);
-
-
