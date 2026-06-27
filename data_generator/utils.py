@@ -104,3 +104,29 @@ def load_json_resource(filename: str) -> dict[str, Any]:
     with file_path.open("r",encoding = "utf-8") as file:
         return json.load(file)
     
+def random_date_between(start_date: date, end_date: date) -> date:
+    '''
+    Generate a random date between two dates (inclusive).
+
+    Parameters:
+    -----------
+    start_date: date
+        Earliest possible date
+
+    end_date: date
+        Latest possible date
+
+    Returns:
+    ---------
+    date
+        Randomly selected date
+    '''
+
+    if start_date > end_date:
+        raise ValueError("start_date must not be later than end_date")
+    
+    days_between = (end_date - start_date).days
+
+    random_days = random.randint(0, days_between)
+
+    return start_date + timedelta(days=random_days)
